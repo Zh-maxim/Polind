@@ -1,0 +1,1172 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    transition: 0.5s;
+    min-width: 1920px;
+    overflow-x: hidden;
+}
+
+
+.wrapperPreloader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    background: black;
+}
+.preloaderUp{
+    width: 100%;
+    height: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s
+}
+#leftP{
+ position: relative;
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+/*    left: 15%;*/
+    left: 25%;
+    transition: 1s
+}
+#rightP{
+ position: relative;
+    width: 50%;
+    height: 100%;
+    z-index: 101;
+/*    left: -15%;*/
+    left: -26%;
+    transition: 1s
+}
+
+#screamerJUp {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    left: 0px;
+    top: 0px;
+    z-index: 21;
+}
+
+.upSec1 {
+    width: 100%;
+    height: 1007px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec1 {
+    width: 1920px;
+    height: 1007px;
+    background-image: url(image/forest.jpg);
+    background-size: cover;
+}
+
+.upPonel {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.ponel {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+.polind {
+    width: 200px;
+    height: 50%;
+    margin-top: 45px;
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.guide {
+    width: 100px;
+    height: 50%;
+    margin-top: 55px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: end;
+    margin-left: 1100px;
+    cursor: pointer;
+}
+
+.journey {
+    width: 100px;
+    height: 50%;
+    margin-top: 55px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: end;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.hotels {
+    width: 100px;
+    height: 50%;
+    margin-top: 55px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: end;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.travelers {
+    width: 100px;
+    height: 50%;
+    margin-top: 55px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: end;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.upLove {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.love {
+    width: 800px;
+    height: 650px;
+}
+
+.fallIn {
+    width: 100%;
+    height: 50%;
+}
+
+.fallUp {
+    width: 100%;
+    height: 50%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.fallDown {
+    width: 100%;
+    height: 50%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ed6950;
+}
+
+.way {
+    width: 100%;
+    height: 20px;
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.forPlaceUp {
+    width: 100%;
+    height: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forPlace {
+    width: 300px;
+    height: 70px;
+    border-radius: 90px;
+    background: #ffc74a;
+    cursor: pointer;
+    color: #b98000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.popUp {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.upSec2 {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 790px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 {
+    width: 1864px;
+    height: 450px;
+    display: flex;
+}
+
+.city {
+    width: 357px;
+    height: 100%;
+    background-image: url(image/city.jpg);
+    filter: brightness(50%);
+}
+
+.zakopane {
+    width: 356px;
+    height: 100%;
+    background-image: url(image/cliff.jpg);
+    margin-left: 30px;
+}
+
+.zakopaneNoteUp {
+    width: 100%;
+    height: 233px;
+    margin-top: 217px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zakopaneNote {
+    width: 250px;
+    height: 100px;
+}
+
+.zakopaneNoty1 {
+    width: 100%;
+    height: 45%;
+    color: white;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zakopaneNoty2 {
+    width: 100%;
+    height: 55%;
+    color: #e1af40;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.sandomierz {
+    width: 357px;
+    height: 100%;
+    background-image: url(image/city_near_the_dea.jpg);
+    margin-left: 30px;
+}
+
+.sandomierzNoteUp {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.sandomierzNote {
+    width: 100%;
+    height: 150px;
+    margin-top: 142px;
+}
+
+.sandomierzNoty1 {
+    width: 100%;
+    height: 40%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.sandomierzNoty2 {
+    width: 100%;
+    height: 30%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewOffersUp {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewOffers {
+    width: 240px;
+    height: 70px;
+    background: #ffc74a;
+    border-radius: 90px;
+    font-size: 20px;
+    color: #b98000;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.sopot {
+    width: 356px;
+    height: 100%;
+    background-image: url(image/sea.jpg);
+    margin-left: 30px;
+}
+
+.sopotNoteUp {
+    width: 100%;
+    height: 203px;
+    margin-top: 217px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sopotNote {
+    width: 250px;
+    height: 100px;
+}
+
+.sopotNoty1 {
+    width: 100%;
+    height: 45%;
+    color: white;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sopotNoty2 {
+    width: 100%;
+    height: 55%;
+    color: #e1af40;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.stoneyWay {
+    width: 357px;
+    height: 100%;
+    background-image: url(image/aWay.jpg);
+    margin-left: 30px;
+    filter: brightness(50%);
+}
+
+.upSec3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 {
+    width: 1920px;
+    height: 100%;
+    background: #ffffff;
+}
+
+.where {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #606f81;
+    margin-top: 250px;
+    padding-bottom: 10px;
+}
+
+.searchingUp {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searching {
+    width: 1020px;
+    height: 100%;
+    display: flex;
+}
+
+.searchingPlace {
+    width: 900px;
+    height: 100%;
+}
+
+.sTech {
+    width: 100%;
+    height: 90%;
+    border: none;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #a7afb9;
+    cursor: default;
+}
+
+.sTech:focus {
+    border: 0px solid black;
+}
+
+.sTech::placeholder {
+    color: #a7afb9;
+}
+
+.lupa {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupka {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.navPonelUp {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navPonel {
+    width: 1120px;
+    height: 33px;
+    display: flex;
+}
+
+.btnJ {
+    width: 120px;
+    height: 100%;
+    border-radius: 90px;
+    background: #ffc74a;
+    cursor: pointer;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    transition: 1s;
+}
+
+.btnT {
+    width: 115px;
+    height: 100%;
+    border-radius: 90px;
+    background: #bdc8d9;
+    cursor: pointer;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+.btnG {
+    width: 75px;
+    height: 100%;
+    border-radius: 90px;
+    background: #bdc8d9;
+    cursor: pointer;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+.btnM {
+    width: 90px;
+    height: 100%;
+    border-radius: 90px;
+    background: #ebeef4;
+    cursor: pointer;
+    color: #bdc8d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    margin-left: 455px;
+    transition: 1s;
+}
+
+.btnC {
+    width: 90px;
+    height: 100%;
+    border-radius: 90px;
+    background: #ebeef4;
+    cursor: pointer;
+    color: #bdc8d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+.btnZ {
+    width: 115px;
+    height: 100%;
+    border-radius: 90px;
+    background: #ebeef4;
+    cursor: pointer;
+    color: #bdc8d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+.stringOffersUp {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.stringOffers {
+    width: 1720px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.centerStringOfOffers1 {
+    width: auto;
+    height: 25%;
+    display: flex;
+}
+
+.pictureOfStringOfOffers1 {
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.pictureOfStringOfOffers2 {
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.pictureOfStringOfOffers3 {
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.stringOfButtonsUp {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.stringOfButtons {
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonOfStringOfOffers1 {
+    width: 200px;
+    height: 55px;
+    border-radius: 90px;
+    background: #ed6950;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: #c0c2d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonOfStringOfOffers2 {
+    width: 200px;
+    height: 55px;
+    border-radius: 90px;
+    background: #ffc74a;
+    margin-left: 250px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: #c0c2d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonOfStringOfOffers3 {
+    width: 200px;
+    height: 55px;
+    border-radius: 90px;
+    background: #ed6950;
+    margin-left: 250px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: #c0c2d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stringOffersUp2 {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.stringOffers2 {
+    width: 1720px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.centerStringOfOffers2 {
+    width: auto;
+    height: 25%;
+    display: flex;
+}
+
+.pictureOfStringOfOffers4 {
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.pictureOfStringOfOffers5 {
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.pictureOfStringOfOffers6 {
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 50px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.stringOfButtonsUp2 {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.stringOfButtons2 {
+    width: 1300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonOfStringOfOffers4 {
+    width: 200px;
+    height: 55px;
+    border-radius: 90px;
+    background: #ed6950;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: #c0c2d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonOfStringOfOffers5 {
+    width: 200px;
+    height: 55px;
+    border-radius: 90px;
+    background: #ffc74a;
+    margin-left: 250px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: #c0c2d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonOfStringOfOffers6 {
+    width: 200px;
+    height: 55px;
+    border-radius: 90px;
+    background: #ed6950;
+    margin-left: 250px;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    color: #c0c2d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upSec4 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec4 {
+    width: 1920px;
+    height: 100%;
+    background: #f8f9fb;
+}
+
+.exploreThisUp {
+    /*
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+    width: 100%;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #606f81;
+    margin-top: 75px;
+}
+
+.SandomTextV {
+    width: 20.4%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 68%;
+    top: -100px;
+    font-size: 240px;
+    color: #ffc74a;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3;
+    z-index: 3;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.upSec5 {
+    width: 100%;
+    height: 770px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.sec5 {
+    width: 1920px;
+    height: 100%;
+    background: #f8f9fb;
+}
+
+.sightQuest1Up {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.sightQuest1 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.sightHalf1 {
+    width: 50%;
+    height: 770px;
+}
+
+.nameOfSight {
+    width: 350px;
+    height: 120px;
+    font-size: 45px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #f8c759;
+    display: flex;
+    align-items: center;
+}
+
+.paragraphOfSight1 {
+    width: 96.5%;
+    height: 250px;
+    color: #7a8795;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2.4;
+}
+
+.paragraphOfSight2 {
+    width: 93%;
+    height: 250px;
+    color: #7a8795;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2.4;
+}
+
+.checkOffersBtnUp {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.checkOffersBtn1 {
+    width: 240px;
+    height: 70px;
+    background: #ffc74a;
+    border-radius: 90px;
+    font-size: 20px;
+    color: #b98000;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.sightHalf2 {
+    width: 576px;
+    height: 576px;
+    background-image: url(image/city_near_the_dea_bright.jpg);
+    box-shadow: 45px 45px 0px #ed6950;
+    z-index: 20;
+}
+
+.UpSec6 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec6 {
+    width: 1920px;
+    height: 100%;
+    background-image: url(image/DarkGrass.jpg);
+    margin-top: 770px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerOfNewsletter {
+    width: 80%;
+    height: 50%;
+}
+
+.topHalfOfNews {
+    width: 100%;
+    height: 50%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.downHalfOfNews {
+    width: 100%;
+    height: 50%;
+}
+
+.signUpBtnUp {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpBtn {
+    width: 200px;
+    height: 70px;
+    background: #ffc74a;
+    border-radius: 90px;
+    font-size: 20px;
+    color: #b98000;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.alsoUpSignUp {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alsoUpSign {
+    width: 500px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.upSec7 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec7 {
+    width: 1920px;
+    height: 600px;
+    margin-top: 770px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.polindVal {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3;
+    z-index: 3;
+    color: #ffe09c;
+    font-size: 350px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.placeOfPolad2phases {
+    width: 100%;
+    height: 200px;
+    z-index: 4;
+}
+
+.placeOfPoladPhase1Up {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeOfPoladPhase1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+
+.placeOfPoladPhase2Up {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeOfPoladPhase2 {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #606f81;
+    font-family: 'Rubik', sans-serif;
+}
